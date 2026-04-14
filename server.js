@@ -7,6 +7,8 @@ const routes = {
   '/index.html': 'index.html',
   '/demo': 'demo_hub_v2.html',
   '/demo/': 'demo_hub_v2.html',
+  '/calls': 'cold_call_script.html',
+  '/calls/': 'cold_call_script.html',
 };
 
 const server = http.createServer((req, res) => {
