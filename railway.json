@@ -1,6 +1,8 @@
 {
-  "build": {},
+  "build": {
+    "builder": "NIXPACKS"
+  },
   "deploy": {
-    "staticDir": "."
+    "startCommand": "caddy run --config /app/Caddyfile"
   }
 }
