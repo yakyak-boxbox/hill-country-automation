@@ -12,9 +12,9 @@ const routes = {
   '/script': 'universal_cold_call.html',
   '/apartments': 'apartment_demo.html',
   '/realestate': 'yitzchak_demo_v2.html',
-  '/realestate/': 'yitzchak_demo_v2.html',
   '/financial': 'jennifer_demo.html',
-  '/financial/': 'jennifer_demo.html',
+  '/journey': 'yitzchak_journey_hub.html',
+  '/journey/': 'yitzchak_journey_hub.html',
 };
 
 const server = http.createServer((req, res) => {
